@@ -36,7 +36,8 @@ Paragraph default: 1.6
 --- 05 SHADOWS
 
 --- 06 BORDER RADIUS
-Default 9px
+Default: 9px
+Medium: 11px
 
 --- 07 WHITE SPACES
 - SPACING SYSTEM (px)
@@ -162,4 +163,8 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+
+strong {
+  font-weight: 500;
 }
