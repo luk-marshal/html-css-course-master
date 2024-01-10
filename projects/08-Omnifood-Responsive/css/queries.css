@@ -25,11 +25,11 @@ Instead, 1rem = 1em = 16px
 }
 
 /***********************/
-/* BELOW 1200px (Landscape tablets) */
+/* BELOW 1200px (Landscape Tablets) */
 /***********************/
 @media (max-width: 75em) {
   html {
-    /* 9px / 16px = 56.25% */
+    /* 9px/16px = 56.25% */
     font-size: 56.25%;
   }
 
@@ -62,6 +62,66 @@ Instead, 1rem = 1em = 16px
   }
 }
 
+/***********************/
+/* BELOW 944px (Tablets) */
+/***********************/
+@media (max-width: 59em) {
+  html {
+    /* 8px/16px = 50% */
+    font-size: 50%;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    margin-top: 3.2rem;
+    justify-content: center;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.2rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-bottom: 1.2rem;
+  }
+}
 /*  */
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
